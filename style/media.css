@@ -1,0 +1,574 @@
+@media(max-width:1040px){
+    .nav__btn{
+        display: none;
+    }
+    .two__text{
+        display: -webkit-box;
+        -webkit-line-clamp: 5;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+    .thre__text{
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+    .text1{
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
+        overflow: hidden;  
+    }
+    .text2{
+        display: -webkit-box;
+        -webkit-line-clamp: 6;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+}
+@media(max-width:1000px){
+    .nav__btn{
+        display: none;
+    }
+    .nav__box{
+        display: flex;
+        justify-content: center;
+        padding: 0 20px;
+    }
+    .nav__list{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        gap: 20px;
+    }
+    .airpods{
+        height: 650px;
+    }
+    .main__title{
+        font-size: 90px;
+        font-weight: 350;
+        line-height: 65px;
+    }
+    .two__text{
+        display: -webkit-box;
+        -webkit-line-clamp: 5;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+    .thre__text{
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+    .text1{
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
+        overflow: hidden;  
+    }
+    .text2{
+        display: -webkit-box;
+        -webkit-line-clamp: 6;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+    .card{
+        width: 240px;
+        height: 300px;
+    }
+}
+@media(max-width:900px){
+    .nav__logo{
+        width: 95px;
+    }
+    .airpods{
+        height: 700px;
+    }
+    .main__itam{
+        padding: 10px 12px;
+        gap: 9px;
+        margin-top: 45px;
+    }
+    .main_text{
+        font-size: 18px;
+        font-weight: 450;
+    }
+    .box__two{
+        flex-direction: column;
+    }
+    .box__two img{
+        max-width: 500px;
+        width: 100%;
+    }
+    .box__thre{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .two__text{
+        text-align: center;
+    }
+    .thre__text{
+        text-align: center;
+    }
+    .box__thre img{
+        max-width: 400px;
+        width: 100%;
+    }
+    .box__four{
+        flex-direction: column;
+        align-items: center;
+    }
+    .box__four img{
+        width: 200px;
+        height: 100%;
+    }
+    .tire{
+        display: none;
+    }
+    .childrin__box{
+        display: grid;
+        grid-template-columns: repeat(2,240px);
+        justify-content: center;
+        margin-top: 30px;
+    }
+    .text1{
+        text-align: center;
+    }
+    .text2{
+        text-align: center;
+    }
+    .footer{
+        padding: 70px 0;
+        margin-top: 45px;
+    }
+    .footer__btn{
+        display: flex;
+        gap: 25px;
+    }
+}
+@media(max-width:800px){
+    .nav__logo{
+        width: 90px;
+    }
+    .nav__list{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        gap: 15px;
+        position:absolute;
+        top: 0 ;
+        left:  0;
+        flex-direction: column;
+        background-color: dimgray;
+        padding: 20px;
+        height: 100%;
+        transform: translateX(-110%);
+        transition: .5s;
+        overflow: hidden;
+    }
+    label{
+        display: block;
+    }
+    #check{
+        display: none;
+    }
+    .close{
+        position: absolute;
+        top: 30px;
+        right: 10px;
+    }
+    #check:checked ~ .nav__list{
+        transform: translate(0);
+    }
+    .nav__link{
+        padding: 30px 0;
+    }
+    .airpods{
+        height: 600px;
+    }
+    .main__itam{
+        padding: 8px 10px;
+        gap: 7px;
+        margin-top: 40px;
+    }
+    .main_text{
+        font-size: 15px;
+        font-weight: 400;
+    }
+    .box__two{
+        display: flex;
+        gap: 25px;
+    }
+    .two__text{
+        text-align: center;
+    }
+    .thre__text{
+        text-align: center;
+    }
+    .box__thre{
+        display: flex;
+        gap: 40px;
+        margin-top: 40px;
+    }
+    .box__thre{
+        text-align: center;
+    }
+    .main__title{
+        font-size: 70px;
+        font-weight: 300;
+        line-height: 55px;
+    }
+    .main__btn{
+        width: 150px;
+    }
+    .box__two img{
+        max-width: 400px;
+        width: 100%;
+    }
+    .two__text{
+        text-align: center;
+    }
+    .box__thre img{
+        max-width: 350px;
+        width: 100%;
+    }
+    .thre__text{
+        text-align: center;
+    }
+    .box__four img{
+        width: 180px;
+        height: 100%;
+    }
+    .text1{
+        text-align: center;
+    }
+    .text2{
+        text-align: center;
+    }
+        .title{
+        font-size: 15px;
+        font-weight: 550;
+        margin-bottom: 7px;
+        }
+        .text{
+        margin-top: 7px;
+        }
+        .view{
+        font-size: 14px;
+        font-weight: 500;
+        width: 110px;
+        text-align: center;
+        padding: 5px 37px;
+        margin-top: 10px;
+        }
+        .footer{
+            padding: 70px 0;
+            margin-top: 35px;
+        }
+        .footer__btn{
+            display: flex;
+            gap: 20px;
+        }
+        .footer__btn svg{
+            display: flex;
+            gap: 20px;
+            width: 50px;
+        }
+        .childrin__box{
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+    }
+    .card{
+        flex-shrink: 0;
+    }
+    }
+@media(max-width:700px){
+    .nav__logo{
+        width: 85px;
+    }
+    .nav__btn{
+        display: none;
+    }
+    .nav__list{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+    }
+    .nav__link{
+        padding: 30px 0;
+    }
+    .airpods{
+        height: 500px;
+    }
+    .main__itam{
+        padding: 7px 8px;
+        gap: 6px;
+        margin-top: 35px;
+    }
+    .main_text{
+        font-size: 14px;
+        font-weight: 350;
+    }
+    .main__title{
+        font-size: 60px;
+        font-weight: 300;
+        line-height: 50px;
+    }
+    .main__btn{
+        width: 150px;
+    }
+    .box__two img{
+        max-width: 350px;
+        width: 100%;
+    }
+    .two__text{
+        text-align: center;
+    }
+    .thre__text{
+        text-align: center;
+    }
+    .box__thre img{
+        max-width: 300px;
+        width: 100%;
+    }
+    .box__four img{
+        width: 150px;
+        height: 100%;
+    }
+        .title{
+        font-size: 14px;
+        font-weight: 500;
+        margin-bottom: 7px;
+        }
+        .text{
+        margin-top: 7px;
+        }
+        .view{
+        font-size: 14px;
+        font-weight: 300;
+        width: 100px;
+        text-align: center;
+        padding: 5px 20px;
+        margin-top: 10px;
+        }
+        .text1{
+            text-align: center;
+        }
+        .text2{
+            text-align: center;
+        }
+        .footer__btn svg{
+            display: flex;
+            gap: 15px;
+            width: 50px;
+        }
+        .childrin__box{
+            display: flex;
+            gap: 10px;
+        }
+        .childrin__box{
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+        justify-content: flex-start;
+    }
+    .card{
+        flex-shrink: 0;
+    }
+    .card img{
+        width: 110px;
+        height: 160px;
+    }
+    .footer{
+        padding: 60px 0;
+        margin-top: 35px;
+    }
+    .footer__btn{
+        display: flex;
+        gap: 20px;
+    }
+}
+@media(max-width:600px){
+    .nav__logo{
+        width: 80px;
+    }
+    .nav__box{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .airpods{
+        height: 400px;
+    }
+    .main__itam{
+        padding: 6px 7px;
+        gap: 5px;
+        margin-top: 30px;
+    }
+    .main_text{
+        font-size: 13px;
+        font-weight: 300;
+    }
+    .main__title{
+        font-size: 40px;
+        font-weight: 230;
+        line-height: 40px;
+    }
+    .box__two img{
+        max-width: 300px;
+        width: 100%;
+    }
+    .two__text{
+        max-width: 400px;
+        width: 100%;
+    }
+    .thre__text{
+        max-width: 400px;
+        width: 100%;
+        gap: 50px;
+    }
+    .box__thre img{
+        max-width: 300px;
+        width: 100%;
+    }
+    .box__four img{
+        width: 150px;
+        height: 100%;
+    }
+        .card{
+            border-radius: 6px;
+            width: 200px;
+            height: 250px;
+            padding: 10px 20px;
+        }
+        .view{
+        font-size: 13px;
+        font-weight: 500;
+        width: 110px;
+        padding: 7px 27px;
+        margin-top: 10px;
+        }
+        .card img{
+            width: 100%;
+        }
+        .childrin__box{
+            flex-wrap: nowrap;
+            overflow-x: scroll;
+        }
+        .card{
+            flex-shrink: 0;
+        }
+        .text1{
+            text-align: center;
+        }
+        .text2{
+            text-align: center;
+        }
+        .card img{
+            width: 100px;
+            height: 150px;
+        }
+        .footer{
+            padding: 50px 0;
+            margin-top: 30px;
+        }
+        .footer__btn{
+            display: flex;
+            gap: 15px;
+        }
+        .footer__box{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+}
+@media(max-width:500px){
+    .nav__logo{
+        width: 75px;
+    }
+    .airpods{
+        height: 300px;
+    }
+    .main__itam{
+        padding: 5px 6px;
+        gap: 4px;
+        margin-top: 25px;
+    }
+    .main_text{
+        font-size: 13px;
+        font-weight: 290;
+    }
+    .main__title{
+        font-size: 30px;
+        font-weight: 200;
+        line-height: 30px;
+    }
+    .box__two img{
+        max-width: 250px;
+        width: 100%;
+    }
+    .two__text{
+        max-width: 300px;
+        width: 100%;
+    }
+    .thre__text{
+        max-width: 350px;
+        width: 100%;
+        gap: 30px;
+    }
+    .box__thre img{
+        max-width: 300px;
+        width: 100%;
+    }
+    .box__four img{
+        width: 150px;
+        height: 100%;
+    }
+    .text1{
+        text-align: center;
+    }
+    .text2{
+        text-align: center;
+    }
+    .card img{
+        width: 90px;
+        height: 140px;
+    }
+}
+@media (max-width: 450px){
+    .nav__logo{
+        width: 70px;
+    }
+    .airpods{
+        height: 250px;
+    }
+    .main__itam{
+        padding: 4px 5px;
+        gap: 3px;
+        margin-top: 20px;
+    }
+    .footer__box{
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    .card img{
+        width: 80px;
+        height: 130px;
+    }
+    .footer__logo{
+        align-items: center;
+    }
+    .footer__logo img{
+        width: 95px;
+        height: 48px;
+    }
+    .footer__logo img {
+        width: 80px;
+        height: 38px;
+    }
+    .footer__svg{
+        gap: 10px;
+    }
+}
